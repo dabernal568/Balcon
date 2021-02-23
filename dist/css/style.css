@@ -1,0 +1,452 @@
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0; 
+}
+
+.logo{
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);   
+}
+.navbar-brand{
+    justify-content: center;
+}
+header .collapse{
+    position: relative;
+    top: 46px;
+    justify-content: space-around;
+    
+} 
+.icono-redes-header{
+    width: 60px;
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #082C4B;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+
+.form-control {
+    display: block;
+    margin-left: -23px;
+    text-align: center;
+    width: 120%;
+    padding: .375rem .75rem;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    background-color: #F4F4F4;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+form{
+    
+    padding: 5px 20px;
+    background-color: #ffff;
+    
+}
+.boton{
+    text-align: center; margin: 20px auto; width: 100%; height: 6vh; background: #EE212B; color: #fff; font-size: 2.2vw; font-weight: bold; font-family: 'Courier New', Courier, monospace;
+}
+.form-group{
+    font-size: 50px;
+    padding: 12px 50px;
+
+}
+.carousel-inner {
+    margin-top: 71px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.lineaazul{
+    position: relative;
+    top: 71px;
+    width: 100%;
+    height: 10vh;
+}
+.formulario{
+    position: relative;
+    top: -1200px;
+    left: 39%;
+    color: #ffff;
+}
+.h4{
+    font-size: 2em; 
+    color: #960404; 
+    font-weight: bold; 
+}
+.fomul{
+    font-size: 2vw;
+}
+/* #carouselExampleInterval{
+    z-index: 2;
+} */
+.formulario-datos{
+    width: 450px;
+}
+
+
+.collapse{
+    justify-content: flex-end;
+    
+}
+
+.col-md-8{
+    position: relative;
+    left: -200px;
+}
+.icon1{
+    position: relative;
+    left: 50px;
+}
+/* servicios */
+
+#servicios{
+
+    background: url("../img/imageonline-co-whitebackgroundremoved.png") no-repeat;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+    
+    background-color: rgb(15, 27, 92);
+    
+}
+.servicios{
+    max-width: 100%;
+    margin-left: -70px;
+   
+}
+.accordion-item{
+    border-top-right-radius: .100rem;
+} 
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-width: 1px;
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 3.25rem;
+}
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: 3.25rem;
+    border-top-right-radius: .25rem;
+}
+.accordion-button:hover {
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    color: black;
+    text-align: left;
+    background-color: rgb(240, 136, 128);
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+}
+.form-control-formulario{
+    
+        display: block;
+        
+        
+        width: 120%;
+        padding: .375rem .75rem;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: black;
+        
+        background-color: #960404;
+        background-clip: padding-box;
+        border: 1px solid  transparent;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: .50rem;
+        background-color: rgb(255, 249, 249);
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+.coli{
+    background: #960404;
+    color: #F4F4F4;
+}
+.card {
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.icono-redes-facebook-instagram{
+    height: 20px;
+}
+.fotes{
+    font-size: 0.5em; color:#fff;
+}
+.comunidad{
+    font-size: 20px;
+}
+/* .t1{
+    color: #fff; 
+    margin-top: 40px; 
+    font-size: 5vw
+} */
+#servicios h1{
+    color: #fff; 
+    margin-top: 15px;
+    font-size: 6vw;
+}
+.formulario-redes{
+
+    background-image: url("../img/footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#centrar-medios{
+    padding-top: 100px;
+}
+.condiciones{
+    padding: 0 0 0 43px; 
+    
+    font-size: 0.3em; 
+    color: #fff;
+
+}
+#final{
+    background-color: transparent;
+}
+.blanco{
+    padding: 60px 0;
+}
+.redes{
+    color: #fff; font-size: 1.5em; font-weight: bold;
+}
+#centrar-medios h1{
+    font-size: 2.5vw;  
+    color: #082C4B;
+}
+.img-telefono-whatsapp{
+    margin: 40px;
+}
+/* laptops */
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    html, body{
+        overflow-x: hidden;
+    }
+}   
+/* tablers */
+@media screen and (max-width: 768px) and (min-width: 520px){
+    html, body{
+        overflow-x: hidden;
+    }
+    #carusel{
+        max-width: 100%;
+        min-height: 530px;
+    }
+    #derecha-izquierda{
+        height: 5vh;
+    }
+    .posicion-y{
+        width: 303px;
+     margin: 0 auto !important;
+    }
+    #i1{
+        font-size: 13px;
+    }
+    .comunidad{
+        font-size: 15px;
+    }
+    .tamano{
+        max-width: 65px;
+        margin: 0 auto;
+    }
+    .tamanito{
+        height: 376px;
+    width: 100%;
+    }
+    #redes-social{
+        margin-left: 48px;
+        margin-bottom: 0;
+        font-size: 15px; 
+    }
+    #balcon-blanco{
+        padding: 16px 0;
+        max-width: 328px;
+    }
+    #icon{
+        max-width: 40px;
+    padding-bottom: 48px;
+    margin-left: 27px;
+    }
+    .foter{
+        max-width: 423px;
+    }
+    #telefonito-whatsapp{
+        margin-left: 33px;
+        max-width: 50px;
+    }
+    .img-telefono-whatsapp{
+        margin: 24px;
+    }
+    
+
+}
+
+
+
+/* Por debajo de 520px */
+@media screen and (max-width: 520px) and (min-width: 320px){
+    
+    html, body{
+        overflow-x: hidden;
+    }
+    
+    .comunidad{
+        font-size: 15px;
+    }
+    .somos-nave{
+        width: 100%;
+    }
+    .col-6{
+        flex: 0 0 auto;
+        width: 100%;   
+    }
+    #centrar-medios{
+        padding-top: 10px;
+    }
+    #centrar-medios h1{
+        font-size: 20px;
+    }
+    .flechitas img{
+        max-width: 12px;
+    }
+    #medios .col-xs-4{
+        width: 252px;
+        margin: 0 auto;
+    }
+    #agencia .col-xs-4{
+        width: 252px;
+        margin: 0 auto;
+    }
+    #producion .col-xs-4{
+        width: 252px;
+        margin: 0 auto;
+    }
+    #Marketing .col-xs-4{
+        width: 252px;
+        margin: 0 auto;
+    }
+    
+    #b1{
+        font-size: 15px;
+        margin: 5px auto;
+    }
+    #b2{
+        font-size: 11px;
+    }
+    .face{
+        max-width: 20px;
+    }
+    
+    #carusel{
+        max-width: 100%;
+        min-height: 375px;
+    }
+    #derecha-izquierda{
+        height: 5vh;
+    }
+    #confianos{
+        font-size: 25px;
+        color: #960404; 
+        font-weight: bold;
+    }
+    .nav-item{
+        max-width: 20px;
+    }
+    .condiciones{
+        font-size: 11px;
+    }
+    #i1{
+        font-size: 11px;
+    }
+    
+    .form-group{
+        text-align: end;
+        padding: 2px 5px;
+    }
+    #exampleFormControlTextarea1{
+        margin: 10px auto;
+    }
+    .form-control{
+        width: 148px;
+    margin: 0 auto;
+    }
+    .posicion-y{
+        margin-top: -18px;
+    }
+    .card{
+        margin: 0 auto !important;
+        max-width: 236px;
+        
+        
+    }
+    #enviar-datos{
+        height: 33px;
+        font-size: 19px;
+    
+        margin-top: 3px;
+        width: 159px;
+    }
+    .form-control-formulario{
+        font-size: 11px;
+        margin: 0 auto;
+    }
+    #balcon-blanco{
+        padding: 16px 0;
+        max-width: 208px;
+    }
+    #redes-social{
+        margin-bottom: 0;
+        font-size: 15px;    
+    }
+    #icon{
+        max-width: 33px;
+        padding-bottom: 48px;
+    }
+    #formularito{
+        font-size: 20px;
+    }
+    #telefonito-whatsapp{
+        max-width: 50px;
+    }
+    .img-telefono-whatsapp{
+        margin: 24px;
+    }
+    .marginato{
+        margin-left: 112px;
+    }
+
+}
